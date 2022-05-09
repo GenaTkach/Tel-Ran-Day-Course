@@ -1,5 +1,5 @@
 //How many functions are called by main? - 3
-//Which functions are not called? - 3,4,5
+//Which functions are not called? - 3
 //Which functions do not call any other functions? - 3,6
 public class StackAppHomeWork {
 
