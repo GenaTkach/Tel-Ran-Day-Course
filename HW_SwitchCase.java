@@ -43,8 +43,8 @@ public class HW_SwitchCase {
 			return;
 		}
 
-		int group_number = week % 4;
-		switch (group_number) {
+		int groupNumber = week % 4;
+		switch (groupNumber) {
 		case 1:
 			System.out.println("Dan");
 			break;
