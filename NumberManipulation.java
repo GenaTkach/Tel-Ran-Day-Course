@@ -19,18 +19,17 @@ public class NumberManipulation {
 		int counter = 0;
 		
 		while (num != 0) {
+
+			int digit = num % 10;
+			num /= 10;
+
 			if (i % 2 != 0) {
-				int digit = num % 10;
 				counter += digit;
-				num /= 10;
-				i++;
-			}
-			else {
-				int digit = num % 10;
+			} else {
 				counter -= digit;
-				num /= 10;
-				i++;
 			}
+
+			i++;
 		}
 
 		if (counter == 0) {
